@@ -2,7 +2,7 @@
 import { auth, provider } from "./firebaseConfig";
 import { onAuthStateChanged, signInWithPopup, signOut } from "firebase/auth";
 
-const allowedAdmins = ["MhtH5gvH0RMv4yogqP4Tj6ki4Tp1", 'EWQ1oEDv8MTLq0xMy2pRpuP93vc2', "sCYx1gjxSucOHkqYAOqprosCCTt2"]; // 🔐 여기에 관리자 UID 넣기
+const allowedAdmins = ["P3GN9l3O2eaHNylv46FMA1JiKTD3", 'EWQ1oEDv8MTLq0xMy2pRpuP93vc2', "sCYx1gjxSucOHkqYAOqprosCCTt2"]; // 🔐 여기에 관리자 UID 넣기
 
 document.addEventListener("DOMContentLoaded", () => {
   const userInfo = document.getElementById("user-info");
