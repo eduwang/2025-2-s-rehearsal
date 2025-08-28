@@ -8,7 +8,7 @@ import Handsontable from 'handsontable';
 import 'handsontable/dist/handsontable.full.css';
 
 // ✅ 관리자 권한 UID 설정
-const allowedAdmins = ["P3GN9l3O2eaHNylv46FMA1JiKTD3", "pbUud8kcDKZyRkwgOmpCXBwPF5v1", "sCYx1gjxSucOHkqYAOqprosCCTt2"];
+const allowedAdmins = ["P3GN9l3O2eaHNylv46FMA1JiKTD3", "pbUud8kcDKZyRkwgOmpCXBwPF5v1", "AJtocEddS2ZZ0dQe6fgtPeoUqEP2"];
 
 // 🔧 DOM 요소 참조
 const userSelect = document.getElementById("user-select");
